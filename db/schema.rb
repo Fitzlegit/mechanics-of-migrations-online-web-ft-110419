@@ -10,13 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2) do
 
-  create_table "artists", force: :cascade do |t|
-    t.text "name"
-    t.text "genre"
-    t.integer "age"
-    t.text "hometown"
-  end
+# Could not dump table "artists" because of following StandardError
+#   Unknown type 'String' for column 'favorite_food'
 
 end
